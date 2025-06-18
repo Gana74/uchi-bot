@@ -206,7 +206,7 @@ async function sendNewsletter(message, imageUrl = null) {
 }
 
 // Массив ID администраторов
-const ADMIN_IDS = ["502105220"]; // Замените на ваш реальный ID, который получите через команду /getid
+const ADMIN_IDS = ["502105220, 5734831768, 451751415"]; // Замените на ваш реальный ID, который получите через команду /getid
 
 bot.start(async (ctx) => {
   await logUserAction(ctx, "Запуск бота");
